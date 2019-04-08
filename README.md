@@ -2,7 +2,7 @@
 # Thibault Phommasone
 
 
-Small exercices in Ruby -- RSpec 3 Edition
+
 ==========
 
 ### Set up instructions
