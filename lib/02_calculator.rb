@@ -1,33 +1,31 @@
-def add(a, b)
-  a + b
+def add(a,b)
+	return (a + b)
 end
 
-def subtract(a, b)
-  a - b
+def subtract(a,b)
+	return (a - b)
 end
 
-def sum(ab)
-  total = 0
-  ab.each { |a| total += a }
-  total
+def sum(ar)
+	x = 0
+	ar.each {|i| x = x + i}
+	return x
 end
 
-def multiply(a, *b)
-  total = a
-  b.each { |i| total *= i }
-  total
+def multiply(a,b)
+	return (a * b)
 end
 
 def power(a,b)
-  a**b
+	return (a**b)
 end
 
-def factorial(n)
-  if n == 0
-    total = 0
+def factorial(a)
+  if a == 0
+    x = 0
   else
-    total = 1
-    1.upto(n) { |i| total *= i }
-    total
+    x = 1
+  	1.upto(a) {|i| x = x * i}
+  	return x
   end
 end
